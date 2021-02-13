@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="standup"
+        android:textColor="#E6FD04"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:id="@+id/text1"
+        android:background="#0040FF"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stand Up Alarm"
+        android:gravity="center"
+        android:layout_marginTop="250sp"
+        android:id="@+id/text2"
+        android:textSize="40sp"/>
+<ToggleButton
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="On"
+    android:textSize="40sp"
+    android:textStyle="bold"
+    android:layout_gravity="center"
+    android:id="@+id/tog1"
+    android:textColor="#000"/>
+
+
+
+
+
+
+</LinearLayout>
